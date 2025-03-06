@@ -1,0 +1,228 @@
+html {
+  font-size: 10px;
+}
+
+#nav {
+  background-color: #e1ebfa;
+}
+
+#header {
+  background-color: #e1ebfa;
+}
+#header h1 {
+  font-size: 6rem;
+}
+#header p {
+  font-size: 3rem;
+}
+
+@media (max-width: 576px) {
+  #header h1 {
+    font-size: 4rem;
+  }
+  #header p {
+    font-size: 2rem;
+  }
+}
+#main #services h2 {
+  font-size: 6rem;
+}
+#main #join {
+  background-image: url(../images/cta-img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 10rem 0;
+  position: relative;
+}
+#main #join .join-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+#main #join .join-content h4 {
+  font-size: 2rem;
+}
+#main #join .join-content h2 {
+  font-size: 5rem;
+}
+#main #join::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+}
+#main #about {
+  padding: 10rem 0;
+}
+#main #about .about-content h2 {
+  font-size: 6rem;
+}
+#main #about .about-content p {
+  font-size: 1.8rem;
+}
+#main #about h3 {
+  font-size: 4rem;
+}
+#main #team {
+  padding: 7rem 0;
+}
+#main #team h2 {
+  font-size: 5rem;
+}
+#main #pricing {
+  background-color: #fcf6f0;
+  padding: 9rem 0;
+}
+#main #pricing h2 {
+  font-size: 6rem;
+}
+#main #pricing p {
+  font-size: 2.5rem;
+}
+#main #pricing h4 {
+  font-size: 2.5rem;
+}
+#main #pricing h3 {
+  font-size: 5rem;
+}
+#main #pricing li {
+  font-size: 1.7rem;
+}
+#main #clients {
+  margin: 8rem 0;
+}
+#main #clients h2 {
+  font-size: 5rem;
+}
+#main #blog {
+  background-color: #f7f4e9;
+  padding: 10rem 0;
+}
+#main #blog h2 {
+  font-size: 5rem;
+}
+#main #blog p {
+  font-size: 2.5rem;
+}
+#main #blog .blog-img {
+  overflow: hidden !important;
+  cursor: pointer;
+}
+#main #blog .blog-img img {
+  transition: transform 0.5s;
+}
+#main #blog .blog-img img:hover {
+  transform: scale(1.1);
+}
+#main #contact {
+  padding: 6rem 0;
+}
+#main #contact .contact-content h3 {
+  font-size: 4rem;
+}
+#main #contact .contact-content p {
+  font-size: 2.5rem;
+}
+#main #contact .contact-content address,
+#main #contact .contact-content a {
+  font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+  #services h2 {
+    font-size: 3rem !important;
+  }
+  #join .join-content h4 {
+    font-size: 1.5rem !important;
+  }
+  #join .join-content h2 {
+    font-size: 3rem !important;
+  }
+  #join #team h2 {
+    font-size: 1rem !important;
+  }
+  #about .about-content h2 {
+    font-size: 3rem !important;
+  }
+  #about .about-content p {
+    font-size: 1.5rem !important;
+  }
+  #about h3 {
+    font-size: 2.5rem !important;
+  }
+  #pricing h2 {
+    font-size: 3rem !important;
+  }
+  #pricing p {
+    font-size: 1.5rem !important;
+  }
+  #pricing h4 {
+    font-size: 1.5rem !important;
+  }
+  #pricing h3 {
+    font-size: 3rem !important;
+  }
+  #pricing li {
+    font-size: 1rem !important;
+  }
+  #clients h2 {
+    font-size: 3rem !important;
+  }
+  #blog h2 {
+    font-size: 3rem !important;
+  }
+  #blog p {
+    font-size: 1.5rem !important;
+  }
+  #contact .contact-content h3 {
+    font-size: 2rem !important;
+  }
+  #contact .contact-content p {
+    font-size: 1.5rem !important;
+  }
+  #contact .contact-content address,
+  #contact .contact-content a {
+    font-size: 1rem !important;
+  }
+  #footer .footer-content h4 {
+    font-size: 1.5rem !important;
+  }
+  #footer .footer-content p {
+    font-size: 1rem !important;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  #join .join-content h4 {
+    font-size: 1.5rem !important;
+  }
+  #join .join-content h2 {
+    font-size: 3rem !important;
+  }
+  #contact .contact-content h3 {
+    font-size: 2rem !important;
+  }
+  #contact .contact-content p {
+    font-size: 1.5rem !important;
+  }
+  #contact .contact-content address,
+  #contact .contact-content a {
+    font-size: 1rem !important;
+  }
+  #footer .footer-content h4 {
+    font-size: 1.5rem !important;
+  }
+  #footer .footer-content p {
+    font-size: 1rem !important;
+  }
+}
+#footer {
+  background-color: #f7f4e9;
+}
+
+/*# sourceMappingURL=style.css.map */
