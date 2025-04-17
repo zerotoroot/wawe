@@ -1,0 +1,261 @@
+// Main
+#main {
+  // Services
+  #services {
+    h2 {
+      font-size: 6rem;
+    }
+  }
+  //   Join
+  #join {
+    background-image: url(../images/cta-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    position: relative;
+    .join-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      h4 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 5rem;
+      }
+    }
+    &::after {
+      content: "";
+      background-color: #000;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 0.5;
+    }
+  }
+  //   About
+  #about {
+    padding: 10rem 0;
+    .about-content {
+      h2 {
+        font-size: 6rem;
+      }
+      p {
+        font-size: 1.8rem;
+      }
+    }
+    h3 {
+      font-size: 4rem;
+    }
+  }
+  //   Team
+  #team {
+    padding: 7rem 0;
+    h2 {
+      font-size: 5rem;
+    }
+  }
+  //   Pricing
+  #pricing {
+    background-color: #fcf6f0;
+    padding: 9rem 0;
+    h2 {
+      font-size: 6rem;
+    }
+    p {
+      font-size: 2.5rem;
+    }
+    h4 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 5rem;
+    }
+    li {
+      font-size: 1.7rem;
+    }
+  }
+  //   Clients
+  #clients {
+    margin: 8rem 0;
+    h2 {
+      font-size: 5rem;
+    }
+  }
+  //   Blog
+  #blog {
+    background-color: #f7f4e9;
+    padding: 10rem 0;
+    h2 {
+      font-size: 5rem;
+    }
+    p {
+      font-size: 2.5rem;
+    }
+    .blog-img {
+      overflow: hidden !important;
+      cursor: pointer;
+      img {
+        transition: transform 0.5s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  //   Contact
+  #contact {
+    padding: 6rem 0;
+    .contact-content {
+      h3 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 2.5rem;
+      }
+      address,
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #services {
+    h2 {
+      font-size: 3rem !important;
+    }
+  }
+  #join {
+    .join-content {
+      h4 {
+        font-size: 1.5rem !important;
+      }
+      h2 {
+        font-size: 3rem !important;
+      }
+    }
+    #team {
+      h2 {
+        font-size: 1rem !important;
+      }
+    }
+  }
+  #about {
+    .about-content {
+      h2 {
+        font-size: 3rem !important;
+      }
+      p {
+        font-size: 1.5rem !important;
+      }
+    }
+    h3 {
+      font-size: 2.5rem !important;
+    }
+  }
+  #pricing {
+    h2 {
+      font-size: 3rem !important;
+    }
+    p {
+      font-size: 1.5rem !important;
+    }
+    h4 {
+      font-size: 1.5rem !important;
+    }
+    h3 {
+      font-size: 3rem !important;
+    }
+    li {
+      font-size: 1rem !important;
+    }
+  }
+  #clients {
+    h2 {
+      font-size: 3rem !important;
+    }
+  }
+  #blog {
+    h2 {
+      font-size: 3rem !important;
+    }
+    p {
+      font-size: 1.5rem !important;
+    }
+  }
+  #contact {
+    .contact-content {
+      h3 {
+        font-size: 2rem !important;
+      }
+      p {
+        font-size: 1.5rem !important;
+      }
+      address,
+      a {
+        font-size: 1rem !important;
+      }
+    }
+  }
+  #footer {
+    .footer-content {
+      h4 {
+        font-size: 1.5rem !important;
+      }
+      p {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #join {
+    .join-content {
+      h4 {
+        font-size: 1.5rem !important;
+      }
+      h2 {
+        font-size: 3rem !important;
+      }
+    }
+  }
+  #contact {
+    .contact-content {
+      h3 {
+        font-size: 2rem !important;
+      }
+      p {
+        font-size: 1.5rem !important;
+      }
+      address,
+      a {
+        font-size: 1rem !important;
+      }
+    }
+  }
+  #footer {
+    .footer-content {
+      h4 {
+        font-size: 1.5rem !important;
+      }
+      p {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) {
+}
